@@ -12,7 +12,8 @@ The code for the game can be found in the corresponding [repository](https://git
 ## The Game
 As the game starts, a set of Pokémon with various attributes is instantiated from a csv-file. The game-initialization is depicted in the figure below. In the beginning, the Player chooses a name and how many Pokémon will fight for him in this round, as well as whether he wants to pick his/her Pokémon, or if they get randomly assigned. The opponent gets the same number of randomly assigned Pokémon. Furthermore, the Pokémon-Type-Relationships, described further below, are displayed.
 
-<img class="image image--xs" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/start.jpg"/>
+![TeXt Theme](https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/start.jpg)
+<img class="image image--xl" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/start.jpg"/>
 
 
 The Player has different types of actions he/she can execute: (fight, train, heal, show Pokémon-type relationships, show Pokémon, quit). After every action all Pokémon for both players will be displayed with their attributes: number of Pokémon (for selection), name, type, max. & current HP, damage, status; as displayed in the following figure.
