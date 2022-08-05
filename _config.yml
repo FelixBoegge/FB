@@ -54,8 +54,8 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
-repository_tree: FelixBoegge/FB
+repository: user_name
+repository_tree: master
 
 
 ## => Paths
