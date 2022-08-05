@@ -36,7 +36,7 @@ author:
   type      : Person # "person" (default), "organization"
   name      : Felix Bögge
   url       :
-  avatar    : # path or url of avatar image (square)
+  avatar    : assets/avatar.jpg # path or url of avatar image (square)
   bio       : I am an amazing person.
   email     : felixboegge@googlemail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
