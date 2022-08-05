@@ -13,28 +13,26 @@ The code for the game can be found in the corresponding [repository](https://git
 As the game starts, a set of Pokémon with various attributes is instantiated from a csv-file. The game-initialization is depicted in the figure below. In the beginning, the Player chooses a name and how many Pokémon will fight for him in this round, as well as whether he wants to pick his/her Pokémon, or if they get randomly assigned. The opponent gets the same number of randomly assigned Pokémon. Furthermore, the Pokémon-Type-Relationships, described further below, are displayed.
 
 ![TeXt Theme](https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/start.jpg)
-<img class="image image--xl" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/start.jpg"/>
-
 
 The Player has different types of actions he/she can execute: (fight, train, heal, show Pokémon-type relationships, show Pokémon, quit). After every action all Pokémon for both players will be displayed with their attributes: number of Pokémon (for selection), name, type, max. & current HP, damage, status; as displayed in the following figure.
 
-<img class="image image--xl" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/mainscreen.jpg"/>
+![TeXt Theme](https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/mainscreen.jpg)
 
 ## Pokémon-Types
 There are five different Pokémon-types: fire, water, grass, electric and rock. Each type as advantage over two types and disadvantage over two other types.
 
 ## Fight
-<img class="image image--xl" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/fight.jpg"/>
+![TeXt Theme](https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/fight.jpg)
 
 If ‘fight’ is selected, the player can choose one of his/her active Pokémon. If only one active Pokémon remains, it is selected automatically. The Pokémon will fight against an active, randomly selected Pokémon of the opponent. If a Pokémon has a type-advantage over the other, it deals double damage. The Pokémon with disadvantage deals normal damage. If the HP of a Pokémon drops to or below zero, the status of that Pokémon changes to KO and it can't be selected for any further action.
 
 ## Train
-<img class="image image--xl" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/train.jpg"/>
+![TeXt Theme](https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/train.jpg)
 
 If ‘train’ is selected, the Player selects an active Pokémon. Again, if only one active Pokémon remains, it is selected automatically. The trained Pokémon from now on deals a predefined amount more damage in every fight. An active, randomly selected Pokémon from the opponent becomes equally trained. The player can train a predefined number of times.
 
 ## Heal
-<img class="image image--xl" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/heal.jpg"/>
+![TeXt Theme](https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/heal.jpg)
 
 If ‘heal’ is selected, the Player selects an active Pokémon, which has not full HP. If no such Pokémon is in the player's list, the game returns to the action selection. Again, if only one active Pokémon with less than full HP remains, it is selected automatically. The healed Pokémon receives a health potion and fills up a predefined amount of HP. An active, randomly selected Pokémon with less than full HP from the opponent becomes equally healed. If no such Pokémon exists, the opponent heals no Pokémon. The player can heal a predefined number of times.
 
