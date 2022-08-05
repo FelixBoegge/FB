@@ -26,7 +26,7 @@ titles:
 key: page-about
 ---
 
-![TeXt Theme](https://github.com/FelixBoegge/FB/blob/master/assets/avatar.jpg)
+![TeXt Theme](https://github.com/FelixBoegge/FB/assets/avatar.jpg)
 
 TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
 
