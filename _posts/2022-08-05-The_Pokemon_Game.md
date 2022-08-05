@@ -17,7 +17,7 @@ As the game starts, a set of Pokémon with various attributes is instantiated fr
 
 The Player has different types of actions he/she can execute: (fight, train, heal, show Pokémon-type relationships, show Pokémon, quit). After every action all Pokémon for both players will be displayed with their attributes: number of Pokémon (for selection), name, type, max. & current HP, damage, status; as displayed in the following figure.
 
-<img class="image image--xl" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/mainscreen.JPG"/>
+<img class="image image--xl" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/mainscreen.jpg"/>
 
 ## Pokémon-Types
 There are five different Pokémon-types: fire, water, grass, electric and rock. Each type as advantage over two types and disadvantage over two other types.
@@ -33,7 +33,7 @@ If ‘fight’ is selected, the player can choose one of his/her active Pokémon
 If ‘train’ is selected, the Player selects an active Pokémon. Again, if only one active Pokémon remains, it is selected automatically. The trained Pokémon from now on deals a predefined amount more damage in every fight. An active, randomly selected Pokémon from the opponent becomes equally trained. The player can train a predefined number of times.
 
 ## Heal
-<img class="image image--xl" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/heal.JPG"/>
+<img class="image image--xl" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/the_pokemon_game/heal.jpg"/>
 
 If ‘heal’ is selected, the Player selects an active Pokémon, which has not full HP. If no such Pokémon is in the player's list, the game returns to the action selection. Again, if only one active Pokémon with less than full HP remains, it is selected automatically. The healed Pokémon receives a health potion and fills up a predefined amount of HP. An active, randomly selected Pokémon with less than full HP from the opponent becomes equally healed. If no such Pokémon exists, the opponent heals no Pokémon. The player can heal a predefined number of times.
 
