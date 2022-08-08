@@ -38,3 +38,5 @@ My blog is not only intended to serve as a portfolio, but also for other young e
 Shortly about me, I am an enthusiastic engineer/ scientist with backgrounds in mechatronic engineering and biomimetics. Learning and exploration are my passion.
 
 If you are interested in what I work on in my free-time, I would like to invite you, reading about the first steps I made, creating a simple [Pokémon game](https://felixboegge.github.io/FB/2022/08/05/The_Pokemon_Game.html).
+
+Furthermore, in case you have any questions, need some advice or just want to talk, I would be happy if you reach out to me via one of the links below, preferably on [LinkedIn](https://www.linkedin.com/in/felixboegge/).
