@@ -16,9 +16,9 @@ The DFS algorithm works similar but uses a stack to store the neighbors of the c
 
 The A* algorithm is a bit more complex and already takes the position of the end into account. It uses a heuristic function to determine, the most probably, best direction. In my code, the heuristic function represents the distance of the current node to the end node. In a checkerboard pattern, where legal moves are up, down, left and right, the distance is
 Display math:
-```math
-h = |x_{current} – xend| + |ycurrent – yend|
-```
+
+$$h = |x_{current} – x_end| + |y_{current} – y_{end}|$$
+
 
 
 In the scope of this project, the weight of an edge between two nodes are not considered, as they are all one. The board is a 50x50 checkerboard with white spots that can be visited and black spots that represent a wall. The checkerboard pattern can be considered a graph, where each node, except the edge nodes, have four neighboring nodes.
@@ -39,7 +39,7 @@ The following figure shows the running A* algorithm in one of the default mazes.
 The BFS and A* algorithm will, by nature, always find the shortest path, but the DFS algorithm might find a way faster. Since the A* algorithm takes the end spot into account, it has an advantage over the BFS.
 
 ## Final
-To start this project, I was inspired by an [A*/ pygame tutorial](https://www.youtube.com/watch?v=JtiK0DOeI4A&t=3s&ab_channel=TechWithTim), I found on Youtube, created by [‘Tech With Tim’](https://www.youtube.com/c/TechWithTim) a Youtuber from Canada, providing tons of helpful lectures, tutorials and tips around computer engineering and programing, especially in Python. At this point I want to acknowledge his work and thank him for his contribution to my learning process. I adopted his A* algorithm and the basic construct of the pygame visualization. I added the BFS and DFS algorithms. Additionally, do I record the time, expressed in steps and the path length to compare the different algorithms. Further, I implemented a button-class and used it to create buttons for path finder algorithm selection, selection of four different default mazes and return/ reset and start function. The buttons will light up when the user hovers over them with the mouse and the selected algorithm will be depicted in orange.
+To start this project, I was inspired by an [A*/ pygame tutorial](https://www.youtube.com/watch?v=JtiK0DOeI4A&t=4s&ab_channel=TechWithTim), I found on Youtube, created by [‘Tech With Tim’](https://www.youtube.com/c/TechWithTim) a Youtuber from Canada, providing tons of helpful lectures, tutorials and tips around computer engineering and programing, especially in Python. At this point I want to acknowledge his work and thank him for his contribution to my learning process. I adopted his A* algorithm and the basic construct of the pygame visualization. I added the BFS and DFS algorithms. Additionally, do I record the time, expressed in steps and the path length to compare the different algorithms. Further, I implemented a button-class and used it to create buttons for path finder algorithm selection, selection of four different default mazes and return/ reset and start function. The buttons will light up when the user hovers over them with the mouse and the selected algorithm will be depicted in orange.
 
 I had great fun, developing this project. I got an in depth understanding of the different algorithms, grounding the foundation of graph traversal. I had the chance to use simple data structure like stacks and queues, I learned earlier, and created the traversal algorithms with them.
 
