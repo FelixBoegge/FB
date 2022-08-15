@@ -16,7 +16,7 @@ The DFS algorithm works similar but uses a stack to store the neighbors of the c
 
 The A* algorithm is a bit more complex and already takes the position of the end into account. It uses a heuristic function to determine, the most probably, best direction. In my code, the heuristic function represents the distance of the current node to the end node. In a checkerboard pattern, where legal moves are up, down, left and right, the distance is
 
-h = |x_current – x_end| + |y_current – y_end|
+h = abs(x_current – x_end) + abs(y_current – y_end)
 
 
 
