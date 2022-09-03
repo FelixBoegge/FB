@@ -1,10 +1,7 @@
 ---
+layout: article
 title: Swarm Simulation
-tags: TeXt
-article_header:
-  type: cover
-  image:
-    src: https://raw.githubusercontent.com/felixboegge/FB/master/assets/swarm_simulation/ant_swarm2.jpg
+mathjax: true
 ---
 
 Welcome to my next project! This time I caught up with an old project, I worked on, in my time as a student in Biomimetics. It was about simulating natural behavior, commonly observable in nature. I was always fascinated by swarm behavior and its decentralized organization. That is why I simulated the collaborative power of an ant colony, where individuals help each other carry food to the nest.
@@ -25,6 +22,9 @@ The second imitation illustrates ants following each other. Every ant leaves a t
 To visualize the swarm behavior, I used the pygame library once more. The simulation starts directly after the file is executed. Some initial ants will randomly start strolling around starting in the middle at the nest. More will spawn over time. Equally, some cookies with random size will be placed randomly and spawn over time. Occasionally, ants have a random chance to alter their orientation by up to 45 degrees. When they hit the boundaries, they bounce off.
 Yellow circles indicate the attraction, or visibility of the cookies. Whenever an ant enters such a circle, it will approach the corresponding cookie and wait there. With every ant waiting at the cookie, the yellow circle grows. As soon as a cookie is occupied by enough ants to be carried, they head towards the nest. Upon arrival, the participating ants reach out to find their next mission.
 Every ant drags a trail of pheromones, rendered by purple dots that fade into white, depicting the freshness of the pheromone.
+Below depicted is a moment of the simulation. You can see ants strolling, following, waiting and carrying.
+
+![TeXt Theme]https://raw.githubusercontent.com/felixboegge/FB/master/assets/swarm_simulation/ant_swarm2.jpg
 
 ## User Experience
 To make the simulation more fun to watch, I added some interactivity and records. I implemented some sliders, with which the user can change parameters of the game in real time. They are found on the right-hand side and encompass maximum number of ants and cookies, frequency of new spawned ants and cookies and the velocity of the ants. Additionally, some records are monitored including current number of ants and cookies, available food, collected cookies and accumulated food, ants killed in death cycles and the passed time in seconds.
