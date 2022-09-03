@@ -4,7 +4,7 @@ tags: TeXt
 article_header:
   type: cover
   image:
-    src: /screenshot.jpg
+    src: https://raw.githubusercontent.com/felixboegge/FB/master/assets/swarm_simulation/ant_swarm2.jpg
 ---
 
 Welcome to my next project! This time I caught up with an old project, I worked on, in my time as a student in Biomimetics. It was about simulating natural behavior, commonly observable in nature. I was always fascinated by swarm behavior and its decentralized organization. That is why I simulated the collaborative power of an ant colony, where individuals help each other carry food to the nest.
