@@ -24,7 +24,7 @@ Yellow circles indicate the attraction, or visibility of the cookies. Whenever a
 Every ant drags a trail of pheromones, rendered by purple dots that fade into white, depicting the freshness of the pheromone.
 Below depicted is a moment of the simulation. You can see ants strolling, following, waiting and carrying.
 
-![TeXt Theme]https://raw.githubusercontent.com/felixboegge/FB/master/assets/swarm_simulation/ant_swarm2.jpg
+![TeXt Theme](https://raw.githubusercontent.com/felixboegge/FB/master/assets/swarm_simulation/ant_swarm2.jpg)
 
 ## User Experience
 To make the simulation more fun to watch, I added some interactivity and records. I implemented some sliders, with which the user can change parameters of the game in real time. They are found on the right-hand side and encompass maximum number of ants and cookies, frequency of new spawned ants and cookies and the velocity of the ants. Additionally, some records are monitored including current number of ants and cookies, available food, collected cookies and accumulated food, ants killed in death cycles and the passed time in seconds.
