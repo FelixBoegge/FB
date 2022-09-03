@@ -4,15 +4,15 @@ title: Swarm Simulation
 mathjax: true
 ---
 
-Welcome to my next project! This time I caught up with an old project, I worked on, in my time as a student in Biomimetics. It was about simulating natural behavior, commonly observable in nature. I was always fascinated by swarm behavior and its decentralized organization. That is why I simulated the collaborative power of an ant colony, where individuals help each other carry food to the nest.
+Welcome to my next project! This time I caught up with an old project I worked on, in my time as a student in Biomimetics. It was about simulating natural behavior, commonly observable in nature. I was always fascinated by swarm behavior and its decentralized organization. That is why I simulated the collaborative power of an ant colony, where individuals help each other carry food to the nest.
 Back then, I used Matlab and plotted the movement of the ants and the objects to carry in a graph, updating every timestep. The code was not running perfectly and contained some bugs.
-This new version is coded in Python using the pygame library, like in my [last project]( https://felixboegge.github.io/FB/2022/08/15/PathFinder_Algorithm.html), to visualize the turmoil. I added some features like interactivity with the user and statistical records.
+This new version is coded in Python using the pygame library, like in my [last project]( https://felixboegge.github.io/FB/2022/08/15/PathFinder_Algorithm.html), to visualize the turmoil. I added some features like interactivity and statistical records.
 This project was also my first one I created myself from scratch, the preliminary ones are based on tutorials.
 
 ## Swarms
 Swarms, especially ant colonies are known for their highly collaborative, decentralized behavior. In other words, there is no central unit controlling the individuals of the swarm, instead every element of the swarm acts and reacts in a simple, preprogrammed manner to external stimuli. For example, will ants collaborate and carry heavy objects together. Furthermore, do ants follow each other. They leave a trail of pheromones showing other ants the way. Other ants in turn will find these trails and follow them.
 This behavior can easily be seen as an algorithm. I tried to simulate the before mentioned examples in this project and will explain them in more detail in the following.
-The goals or wellbeing of a single individual in a swarm is of minor importance, and the swarm itself is the highest good. For more information, I suggest the this [Wikipedia article about swarms](https://en.wikipedia.org/wiki/Swarm_behaviour#Ant_colony_optimization).
+The goals or wellbeing of a single individual in a swarm is of minor importance, and the swarm itself is the highest good. For more information, I suggest to read this [Wikipedia article about swarms](https://en.wikipedia.org/wiki/Swarm_behaviour#Ant_colony_optimization).
 
 ## The Simulation
 In this simulation, I wanted to demonstrate two swarm characteristics. First, I wanted the ants to collaborate in carrying heavy objects, in this case cookies, to the nest. The idea is that every cookie has an attraction or a visibility to the ants that grows with more ants already waiting at the cookie. Ants initially are strolling around, but as soon as they come inside the visibility of a cookie, they approach it. As soon as there are enough ants for the cookie, they start to carry it to the nest. After fulfilling their mission, they spread out randomly again.
@@ -27,11 +27,11 @@ Below depicted is a moment of the simulation. You can see ants strolling, follow
 ![TeXt Theme](https://raw.githubusercontent.com/felixboegge/FB/master/assets/swarm_simulation/ant_swarm2.jpg)
 
 ## User Experience
-To make the simulation more fun to watch, I added some interactivity and records. I implemented some sliders, with which the user can change parameters of the game in real time. They are found on the right-hand side and encompass maximum number of ants and cookies, frequency of new spawned ants and cookies and the velocity of the ants. Additionally, some records are monitored including current number of ants and cookies, available food, collected cookies and accumulated food, ants killed in death cycles and the passed time in seconds.
+To make the simulation more fun to watch, I added some interactivity and records. I implemented some sliders, with which the user can change parameters of the game in real time. They are found on the right-hand side and encompass maximum number of ants and cookies, frequency of newly spawned ants and cookies and the velocity of the ants. Additionally, some records are monitored including current number of ants and cookies, available food, collected cookies and accumulated food, ants killed in death cycles and the passed time in seconds.
 
 ## Final
  I had great fun working on this project. Swarm behavior and its characteristics excite me for a long time already. I believe it is and will be a great role model for decentralized systems in different fields. For instance, could a swarm of drones of different ´expertise´ collaborate to construct buildings. Or characteristics could be adapted in autonomous driving and transportation. I believe there are and will emerge many other fields of applicability.
 I implemented some classes for this project, among others for the sliders, which gave me a more in-depth understanding of pygame. Furthermore, did I implement my own data structure to record the pheromone trails of my ants. A kind of a circular queue, which overwrites itself.
 
 Thank you for reading and following me. To have a look into my code, visit the corresponding [repository]( https://github.com/FelixBoegge/swarm_simulation) on my Github. To run the simulation, simply download the [executable]( https://github.com/FelixBoegge/swarm_simulation/blob/master/Swarm%20Simulation%20executable.rar), unpack it and run the .exe file. Once again, windows might detect the files as malicious, but it only contains the simulation.
-If you have any questions or suggestions, feel free to contact me. Have a great day.
+If you have any questions or suggestions, feel free to contact me. Have a great day!
