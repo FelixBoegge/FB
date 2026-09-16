@@ -55,6 +55,7 @@ Conversational follow-up (the plant-specific chat) works differently, because a 
 - **Frontend:** React, built with Vite and styled with Tailwind CSS
 - **Database:** PostgreSQL with pgvector, hosted on Supabase — stores everything from plants and diagnoses to the vector-indexed disorder corpus and the agent's own conversation checkpoints
 - **Models:** routed through OpenRouter, split by task — cheap models for simple binary checks, a vision model for identification and symptom extraction, a stronger reasoning model for the actual diagnosis and treatment planning, and an embedding model for retrieval
+- **Observability:** every graph run is traced in LangSmith — nodes, tool calls, token usage — and LangGraph Studio lets me step through a run node by node while developing
 - **External services:** Pl@ntNet for a second opinion on species; OpenStreetMap's geocoder turns a coarsened GPS fix into a place name; Open-Meteo fetches the three weeks of weather behind that place and the seven-day forecast ahead; Tavily web search as a fallback when the curated knowledge base doesn't cover a disorder well
 - **Deployment:** containerized and running on Google Cloud Run (GCP), behind a custom domain with a managed TLS certificate; real email delivery for account verification instead of a stub mailer
 
