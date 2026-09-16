@@ -24,20 +24,43 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-about
+show_title: false
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/felixboegge/FB/master/assets/avatar.jpg)
+<style>
+.about-photo {
+  float: right;
+  width: 45%;
+  max-width: 340px;
+  margin: 0 0 1.5rem 2rem;
+  border-radius: 8px;
+}
+.about-hero-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 1.25rem;
+}
+@media (max-width: 480px) {
+  .about-photo {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1.5rem;
+  }
+}
+</style>
 
-I am a dedicated Python learner, presenting my personal projects.
+<img class="about-photo" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/avatar.jpg" alt="Felix Bögge">
 
-My journey just started a few months ago, after I decided to become competent in coding and starting a career in the tech industry.
+<p class="about-hero-title">Hey, I'm Felix Bögge</p>
 
-I create the content of this blog to showcase my growing skills, pointing out, what I specifically learned, what I liked about it and what I had difficulties with.
+I'm a Backend Engineer transitioning into AI Engineering, with 2+ years of professional experience building backend systems in Python — Django, FastAPI, REST APIs, SQL, Docker and Git. I enjoy building software that's reliable and well-tested, and I'm especially interested in how those same engineering habits carry over into AI-powered applications, where it's easy to optimize for a flashy demo and skip the parts that make something actually usable.
 
-My blog is not only intended to serve as a portfolio, but also for other young engineers, giving inspiration in clever coding, finding personal projects or simply start blogging about their own content.
+Right now I'm deepening that into AI Engineering specifically — LLM-based applications, RAG, embeddings and vector databases, and agentic architectures. I've built AI agents with tool and function calling and agentic workflows with LangChain and LangGraph, and I use LangSmith for observability and RAGAS to evaluate retrieval and generation quality, always with an eye on cost and scalability rather than just whether an answer looks right once. Claude Code and agentic coding are part of how I build now, not just what I build.
 
-Shortly about me, I am an enthusiastic engineer/ scientist with backgrounds in mechatronic engineering and biomimetics. Learning and exploration are my passion.
+As part of my AI Engineering training at Turing College, I've been building portfolio applications with production-oriented architecture. My current project, [Plantopia](/FB/2026/09/16/Plantopia.html), is an AI-powered plant diagnostic app that combines an AI agent, RAG, semantic search, web search and agentic orchestration to identify plant conditions and recommend treatment. It's given me a concrete place to see how LLMs, data, tools, evaluation and backend engineering actually fit together — and it's why I'm actively looking to move into an AI Engineering role, while staying open to backend roles where software engineering and AI intersect.
 
-If you are interested in what I work on in my free-time, I would like to invite you, reading about the first steps I made, creating a simple [Pokémon game](https://felixboegge.github.io/FB/2022/08/05/The_Pokemon_Game.html).
+<!-- Bicycle tour paragraph goes here — Felix is writing this one himself. -->
 
-Furthermore, in case you have any questions, need some advice, or just want to talk, I would be happy if you reach out to me via one of the links below, preferably on [LinkedIn](https://www.linkedin.com/in/felixboegge/).
+<div style="clear: both;"></div>
