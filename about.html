@@ -288,24 +288,46 @@
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
 <!-- end custom main top snippet -->
-<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Hey, I'm Felix Bögge</h1></header></div><meta itemprop="headline" content="Hey, I'm Felix Bögge"><meta itemprop="author" content="TeXt"/><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
+<article itemscope itemtype="http://schema.org/Article"><header style="display:none;"><h1>Hey, I'm Felix Bögge</h1></header><meta itemprop="headline" content="Hey, I'm Felix Bögge"><meta itemprop="author" content="TeXt"/><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
 <!-- end custom article top snippet -->
-<div class="article__content" itemprop="articleBody"><p><img src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/avatar.jpg" alt="TeXt Theme" /></p>
+<div class="article__content" itemprop="articleBody"><style>
+.about-photo {
+  float: right;
+  width: 45%;
+  max-width: 340px;
+  margin: 0 0 1.5rem 2rem;
+  border-radius: 8px;
+}
+.about-hero-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 1.25rem;
+}
+@media (max-width: 480px) {
+  .about-photo {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1.5rem;
+  }
+}
+</style>
 
-<p>I am a dedicated Python learner, presenting my personal projects.</p>
+<p><img class="about-photo" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/avatar.jpg" alt="Felix Bögge" /></p>
 
-<p>My journey just started a few months ago, after I decided to become competent in coding and starting a career in the tech industry.</p>
+<p class="about-hero-title">Hey, I'm Felix Bögge</p>
 
-<p>I create the content of this blog to showcase my growing skills, pointing out, what I specifically learned, what I liked about it and what I had difficulties with.</p>
+<p>I’m a Backend Engineer transitioning into AI Engineering, with 2+ years of professional experience building backend systems in Python — Django, FastAPI, REST APIs, SQL, Docker and Git. I enjoy building software that’s reliable and well-tested, and I’m especially interested in how those same engineering habits carry over into AI-powered applications, where it’s easy to optimize for a flashy demo and skip the parts that make something actually usable.</p>
 
-<p>My blog is not only intended to serve as a portfolio, but also for other young engineers, giving inspiration in clever coding, finding personal projects or simply start blogging about their own content.</p>
+<p>Right now I’m deepening that into AI Engineering specifically — LLM-based applications, RAG, embeddings and vector databases, and agentic architectures. I’ve built AI agents with tool and function calling and agentic workflows with LangChain and LangGraph, and I use LangSmith for observability and RAGAS to evaluate retrieval and generation quality, always with an eye on cost and scalability rather than just whether an answer looks right once. Claude Code and agentic coding are part of how I build now, not just what I build.</p>
 
-<p>Shortly about me, I am an enthusiastic engineer/ scientist with backgrounds in mechatronic engineering and biomimetics. Learning and exploration are my passion.</p>
+<p>As part of my AI Engineering training at Turing College, I’ve been building portfolio applications with production-oriented architecture. My current project, <a href="/FB/2026/09/16/Plantopia.html">Plantopia</a>, is an AI-powered plant diagnostic app that combines an AI agent, RAG, semantic search, web search and agentic orchestration to identify plant conditions and recommend treatment. It’s given me a concrete place to see how LLMs, data, tools, evaluation and backend engineering actually fit together — and it’s why I’m actively looking to move into an AI Engineering role, while staying open to backend roles where software engineering and AI intersect.</p>
 
-<p>If you are interested in what I work on in my free-time, I would like to invite you, reading about the first steps I made, creating a simple <a href="https://felixboegge.github.io/FB/2022/08/05/The_Pokemon_Game.html">Pokémon game</a>.</p>
+<!-- Bicycle tour paragraph goes here — Felix is writing this one himself. -->
 
-<p>Furthermore, in case you have any questions, need some advice, or just want to talk, I would be happy if you reach out to me via one of the links below, preferably on <a href="https://www.linkedin.com/in/felixboegge/">LinkedIn</a>.</p>
+<div style="clear: both;"></div>
 </div><div class="d-print-none"><footer class="article__footer"><!-- start custom article footer snippet -->
 
 <!-- end custom article footer snippet -->
