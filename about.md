@@ -2,7 +2,7 @@
 layout: article
 titles:
   # @start locale config
-  en      : &EN       Hey, I'm Felix Bögge
+  en      : &EN       About
   en-GB   : *EN
   en-US   : *EN
   en-CA   : *EN
@@ -16,7 +16,7 @@ titles:
   zh-HK   : *ZH_HANT
   ko      : &KO
   ko-KR   : *KO
-  fr      : &FR       Hey, I'm Felix Bögge
+  fr      : &FR       About
   fr-BE   : *FR
   fr-CA   : *FR
   fr-CH   : *FR
