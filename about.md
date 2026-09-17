@@ -53,7 +53,7 @@ show_title: false
 
 <img class="about-photo" src="https://raw.githubusercontent.com/felixboegge/FB/master/assets/avatar.jpg" alt="Felix Bögge">
 
-<p class="about-hero-title">Hey, I'm Felix Bögge</p>
+<p class="about-hero-title">Hi, Felix here</p>
 
 I'm a Backend Engineer transitioning into AI Engineering, with 2+ years of professional experience building backend systems in Python — Django, FastAPI, REST APIs, SQL, Docker and Git. I enjoy building software that's reliable and well-tested, and I'm especially interested in how those same engineering habits carry over into AI-powered applications, where it's easy to optimize for a flashy demo and skip the parts that make something actually usable.
 
@@ -61,6 +61,6 @@ Right now I'm deepening that into AI Engineering specifically — LLM-based appl
 
 As part of my AI Engineering training at Turing College, I've been building portfolio applications with production-oriented architecture. My current project, [Plantopia](/FB/2026/09/16/Plantopia.html), is an AI-powered plant diagnostic app that combines an AI agent, RAG, semantic search, web search and agentic orchestration to identify plant conditions and recommend treatment. It's given me a concrete place to see how LLMs, data, tools, evaluation and backend engineering actually fit together — and it's why I'm actively looking to move into an AI Engineering role, while staying open to backend roles where software engineering and AI intersect.
 
-<!-- Bicycle tour paragraph goes here — Felix is writing this one himself. -->
+Outside of technology, a one-year bicycle journey from Germany to Sri Lanka taught me to embrace uncertainty, adapt to unfamiliar environments, and solve problems with whatever resources were available. Travelling independently across different countries and cultures strengthened my curiosity, resilience, and willingness to step outside my comfort zone—qualities that continue to influence how I approach new technologies, complex problems, and unfamiliar challenges as an engineer.
 
 <div style="clear: both;"></div>
